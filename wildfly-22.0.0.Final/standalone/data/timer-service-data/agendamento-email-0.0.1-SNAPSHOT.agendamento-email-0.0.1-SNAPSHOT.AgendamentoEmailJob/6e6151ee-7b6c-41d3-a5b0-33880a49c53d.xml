@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<timers xmlns="urn:jboss:wildfly:ejb-timers:1.0">
+    <calendar-timer timed-object-id="agendamento-email-0.0.1-SNAPSHOT.agendamento-email-0.0.1-SNAPSHOT.AgendamentoEmailJob" timer-id="6e6151ee-7b6c-41d3-a5b0-33880a49c53d" next-date="1613590360000" timer-state="ACTIVE" schedule-expr-second="*/10" schedule-expr-minute="*" schedule-expr-hour="*" schedule-expr-day-of-week="*" schedule-expr-day-of-month="*" schedule-expr-month="*" schedule-expr-year="*">
+        <timeout-method declaring-class="br.com.alura.job.AgendamentoEmailJob" name="enviarEmail"/>
+    </calendar-timer>
+</timers>
